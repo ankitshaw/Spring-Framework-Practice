@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+<!--  	<bean id="t" class="beans.Test" singleton="false"> 
+	</bean>   for spring-beans dtd and not 2.0, uses singleton property to make 
+	objects singleton or prototype using true and false -->
+	
+	<bean id="t" class="beans.Test" scope="prototype">  <!-- scope to make class object singleton or prototype -->
+	</bean>
+</beans>
