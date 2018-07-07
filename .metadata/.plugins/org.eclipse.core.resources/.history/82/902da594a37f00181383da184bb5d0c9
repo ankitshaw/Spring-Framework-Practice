@@ -1,9 +1,0 @@
-package beans.copy.copy;
-
-public class Test {
-	
-	public void hello() {
-		System.out.println("Hello Spring...");
-	}
-
-}
