@@ -6,6 +6,6 @@
 	</bean>   for spring-beans dtd and not 2.0, uses singleton property to make 
 	objects singleton or prototype using true and false -->
 	
-	<bean id="t" class="beans.Test" scope="singleton">  <!-- scope to make class object singleton or prototype -->
+	<bean id="t" class="beans.Test" scope="prototype">  <!-- scope to make class object singleton or prototype -->
 	</bean>
 </beans>
