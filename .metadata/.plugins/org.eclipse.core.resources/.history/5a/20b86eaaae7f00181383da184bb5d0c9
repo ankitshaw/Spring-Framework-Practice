@@ -1,0 +1,20 @@
+package Test;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+import beans.Test;
+
+public class Client {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext ap = new ApplicationContext("resources/Spring.xml");
+		
+		
+	}
+
+}

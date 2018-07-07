@@ -1,0 +1,13 @@
+package beans;
+
+public class Test1 {
+	
+	public Test1() {
+		System.out.println("Test...Constructor");
+	}
+	
+	public void hello() {
+		System.out.println("Hello Spring...");
+	}
+
+}

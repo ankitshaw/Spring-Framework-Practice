@@ -1,0 +1,9 @@
+package com.demo1.beans;
+
+public class Test {
+	
+	public void hello() {
+		System.out.println("Hello Spring...");
+	}
+
+}
