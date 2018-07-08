@@ -3,17 +3,20 @@ package Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import beans.Test;
-
+import beans.Car;
 public class Client {
-	
 	
 	public static void main(String[] args) {
 		
+//		String xml[] = new String[] {"resources/Engine_Spring.xml","resources/Car_Spring.xml"};
+		
 		ApplicationContext ap = new ClassPathXmlApplicationContext("resources/Spring.xml");
-		Test t = (Test) ap.getBean("t");
-		t.hello("Durga");
-
+		
+		Car c = (Car) ap.getBean("c"); 
+		c.printCarData();
+		
+		
+			
 	}
 
 }
