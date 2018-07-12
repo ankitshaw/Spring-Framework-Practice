@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Required;
 
 public class Test {
 	
+	private Test2 t2 ;
 	private String driver;
 	private String url;
 	private String user;
@@ -68,7 +69,15 @@ public class Test {
 		System.out.println(driver+"\n"+url+"\n"+user+"\n"+password);
 	}
 	
-	
+	public Test2 getT2() {
+		return t2;
+	}
+
+	@Required
+	public void setT2(Test2 t2) {
+		this.t2 = t2;
+	}
+
 	
 
 }

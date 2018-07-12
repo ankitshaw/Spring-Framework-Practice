@@ -14,11 +14,20 @@
 	</bean>  -->
 	
 	<!-- setter with required annotation is absent -->
-	<bean id="t1" class="beans.Test">
+	<!--<bean id="t1" class="beans.Test">
 		<property name="url" value="jdbc:oracle:thin:@localhost:1521"></property>
 		<property name="user" value="system"></property>
-		<property name="password" value="manager"></property>
-	</bean>
+		<property name="password" value="manager"></property>  
+	</bean>  -->
+	
+	<!-- object dependency check -->
+		<bean id="t" class="beans.Test">
+		<property name="driver" value="oracle.jdbc.OracleDriver"></property>
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521"></property>
+		<property name="user" value="system"></property>
+		
+		</bean>
+	
 	
 
 </beans>
