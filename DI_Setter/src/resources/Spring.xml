@@ -7,7 +7,7 @@
 	
 		<property name="name" value="Ankit"></property> 
 		<property name="age" value="20"></property> 
-		<property name="email" value="contact@ankitshaw.com"></property> 
+		<property name="email" value=""></property> 
 	
 	</bean> 
 	
